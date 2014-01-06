@@ -2,6 +2,12 @@
 
 Detect where the text wrap in any dom element.
 
+## Installation
+
+Just clone this repo or better, use `bower`:
+
+    bower install js-line-wrap-detector
+
 ## Usage
 
     <script src="src/lineWrapDetector.js"></script>
