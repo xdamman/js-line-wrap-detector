@@ -1,0 +1,26 @@
+{
+  "name": "js-line-wrap-detector",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xdamman/js-line-wrap-detector",
+  "authors": [
+    "Xavier Damman <xdamman@gmail.com>"
+  ],
+  "description": "Detect where the text wrap in any dom element.",
+  "main": "src/lineWrapDetector.js",
+  "keywords": [
+    "line",
+    "wrap",
+    "detect",
+    "detector",
+    "wrapping",
+    "text"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
