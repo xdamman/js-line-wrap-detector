@@ -1,6 +1,6 @@
 {
   "name": "js-line-wrap-detector",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect where the text wraps in Javascript",
   "main": "src/lineWrapDetector.js",
   "directories": {
