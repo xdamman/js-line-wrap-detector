@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>jsLineWrapDetector demo</title>
+
+    <style>
+      p { 
+        width: 500px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore alias ullam eveniet <b>officiis consequatur laboriosam</b> porro aliquid minima eum impedit. Suscipit minima eligendi <a href="">necessitatibus <i>consequuntur pariatur</i> natus</a> quae placeat. Suscipit.</p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js"></script>
+
+  <script>
+    require(['src/lineWrapDetector'], function(detector) {
+      var ps = document.getElementsByTagName('p');
+      var p = ps[0];
+      var lines = detector.getLines(p);    
+      console.log(lines.length+" lines: ", lines);
+    });
+  </script>
+
+  </body>
+</html>

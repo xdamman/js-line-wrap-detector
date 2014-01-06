@@ -1,0 +1,44 @@
+{
+  "name": "js-line-wrap-detector",
+  "version": "0.0.0",
+  "description": "Detect where the text wraps in Javascript",
+  "main": "src/lineWrapDetector.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --singleRun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xdamman/js-line-wrap-detector.git"
+  },
+  "keywords": [
+    "line",
+    "wrap",
+    "javascript",
+    "detect"
+  ],
+  "author": "Xavier Damman (@xdamman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdamman/js-line-wrap-detector/issues"
+  },
+  "homepage": "https://github.com/xdamman/js-line-wrap-detector",
+  "devDependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.5",
+    "karma-coffee-preprocessor": "~0.1.2",
+    "requirejs": "~2.1.9",
+    "karma-requirejs": "~0.2.1",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma": "~0.10.9",
+    "karma-chai": "0.0.2",
+    "mocha": "~1.16.2",
+    "karma-mocha": "~0.1.1",
+    "karma-cajon": "0.0.1"
+  }
+}
