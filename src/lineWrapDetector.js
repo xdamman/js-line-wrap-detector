@@ -25,7 +25,9 @@
       el.parentNode.removeChild(el);
     }
     else {
-      el.innerHTML = wrapWords(el.innerText,'<span class="js-detect-wrap">','</span>');
+      if(el.innerText){
+        el.innerHTML = wrapWords(el.innerText,'<span class="js-detect-wrap">','</span>');
+      }
     }
   };
 
