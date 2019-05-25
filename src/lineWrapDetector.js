@@ -10,6 +10,9 @@
   };
 
   var wrapWordsInChildElement = function(el) {
+    if(el.parentElement.className=="js-detect-wrap"){
+      return;
+    }
     if(el.nodeName == '#text') {
       var words = el.textContent.split(' ');
       for(var i=0;i<words.length;i++) {
